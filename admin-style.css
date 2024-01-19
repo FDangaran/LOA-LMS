@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+      justify-content: center;
+      background-color: #E6E6E6;
+    }
+
+    .flex-container{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+
+    .box1{ /*Ascension Record Button*/
+      width: 310px;
+      height: 125px;
+      background-color: white;
+      color: blue;
+      font-size: 22px;
+      font-weight: bolder;
+      text-align: left;
+      line-height: 110px;
+      border-radius: 15px;
+      margin: 30px;
+      background-image: url('Logo/Ascension record logo.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      padding-left: 10px;
+    }
+
+    .box2{ /*Activity Log Button*/
+      width: 310px;
+      height: 125px;
+      background-color: white;
+      color: blue;
+      font-size: 22px;
+      font-weight: bolder;
+      text-align: left;
+      line-height: 110px;
+      border-radius: 15px;
+      margin: 30px;
+      background-image: url('Logo/Activity log logo.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      padding-left: 60px;
+    }
+
+    .box3{ /*Overdue Fees Button*/
+      width: 310px;
+      height: 125px;
+      background-color: white;
+      color: red;
+      font-size: 22px;
+      font-weight: bolder;
+      text-align: left;
+      line-height: 110px;
+      border-radius: 15px;
+      margin: 30px;
+      background-image: url('Logo/Overdue fee logo.png');
+      background-repeat: no-repeat;
+      background-position: right;
+      padding-left: 60px;
+    }
+
+     a .box1:hover{
+      background-color: #0000C8;
+      color: white;
+    }
+
+     a .box2:hover{
+      background-color: #0000C8;
+      color: white;
+    }
+
+
+     a .box3:hover{
+      background-color: #0000C8;
+      color: white;
+    }
+    .breadcrumb:before {
+      color: #0000C8 !important;
+  }
+    .breadcrumb:last-child {
+      color: #0000C8 !important;
+   }
+    .breadcrumb:parent-breadcrumb {
+    color: black !important;
+   }
+
+   .header {
+    position:flex;
+    top: 0;
+    background-color: blue;
+   }
+   .footer {
+    position:flex;
+    bottom: 0;
+   }
+   
+   .button-cell {
+    grid-column: 1 / span 2;
+   }
+
+  /* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
